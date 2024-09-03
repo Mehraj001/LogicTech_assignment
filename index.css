@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+body{
+    margin: 0%;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: antiquewhite;
+}
+#menu{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+#logo{
+    width: 80px;
+    height: 25px;
+    margin-top: 17px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#search_icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 23px;
+    margin-left: 900px;
+}
+#search{
+    width: 200px;
+    height: 30px;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-top: 0ch;
+    border-bottom: 0ch;
+    margin-top: 18px;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: gray;
+    border-radius: 10px;
+}
+#content{
+    width: 100%;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+}
+#left{
+    width: 50%;
+    margin-left: 200px;
+}
+#left_div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 10px;
+}
+#left_div>div>p{
+    color: gray;
+}
+#right{
+    width: 25%;
+    height: 700px;
+    margin-top: 50px;
+    overflow-y: scroll;
+    margin-left: 100px;
+    text-align: center;
+    box-shadow: rgba(240, 172, 165, 0.3) 0px 0px 0px 3px;
+    background-color: rgb(244, 221, 18);
+}
+#scroll{
+    position: fixed;
+    background-color: white;
+    width: 25%;
+    height: 80px;
+    box-shadow: rgba(240, 172, 165, 0.3) 0px 0px 0px 3px;
+}
+#latestnews{
+    background-color: rgb(244, 221, 18);
+}
+#right_div{
+    margin-top: 100px;
+}
+#right>h1{
+    color: rgb(0, 0, 0);
+}
+#homenews>h4{
+    color: red;
+    font-family: 'Zilla Slab', serif;
+}
+#homenews>p{
+    font-family: 'Zilla Slab', serif;
+}
+#latestnews{
+    margin: 30px 30px 30px 30px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 10px 10px 10px 10px;
+}
+#latestnews>p{
+    color: gray;
+}
+#latestnews>h4{
+    color: rgb(77, 81, 82);
+}
+#latestnews>a{
+    color:teal
+}
